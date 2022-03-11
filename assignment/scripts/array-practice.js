@@ -36,7 +36,7 @@ console.log('The last animal in the array is:', animalArray[3]);
 //      instead of the exact index number of the last item
 console.log('The last animal in the array is:', animalArray[animalArray.length -1])
 
-// 4. Adding & Removing Array Items
+// 4. Adding & Removing Array Items   
 console.log('--- 4. Adding and removing array items ---');
 
 // Example: Add an animal to the end using Array.push
