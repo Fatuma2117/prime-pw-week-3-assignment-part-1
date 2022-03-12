@@ -55,7 +55,7 @@ console.log('The animals are now', animalArray);
 // 4.b. TODO: Remove the food at the end of your array & 
 //      log both the food removed and the updated array
 let removedFood = favoriteFoods.pop();
-console.log('Removed the last food', removedFood);
+console.log('Removed the last food:', removedFood);
 console.log('My favorite foods are now',favoriteFoods);
 
 // Example: Add an animal to the beginning using Array.unshift
@@ -80,8 +80,8 @@ console.log('My new list of favorite foods are:', favoriteFoods);
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
-favoriteFoods.indexOf(1);
-favoriteFoods.push('pizza');
+favoriteFoods = favoriteFoods.splice([1])
+favoriteFoods.push('Cake')
 console.log('Updated list of my favorite foods are:', favoriteFoods);
 
 
@@ -89,7 +89,7 @@ console.log('Updated list of my favorite foods are:', favoriteFoods);
 //     in reverse alphabetical order. Log the array.
 let order = favoriteFoods.sort()
 let reverse = order.reverse()
-console.log(reverse);
+console.log('Reversed Alphabetical Foods:',reverse);
 
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
@@ -105,4 +105,4 @@ console.log(convert);
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
 
 let newArray = favoriteFoods.concat(animalArray);
-console.log(newArray);
+console.log('Combined favorite foods and animals:',newArray);
